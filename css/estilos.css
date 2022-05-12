@@ -59,13 +59,13 @@ body{
 	font-size: 0.8em;
 	text-align: center;
 	width: 22%;
-	background-color: #136C55; /*bottle green*/;
+	background: linear-gradient(90deg, rgba(19,108,85,1) 0%, rgba(19,108,85,1) 50%, rgba(108,19,43,1) 100%);
 	height: 30px;
 
 }
 
 .header__menu{
-	background-color: #136C55; /*bottle green*/
+	background: linear-gradient(90deg, rgba(19,108,85,1) 0%, rgba(19,108,85,1) 50%, rgba(108,19,43,1) 100%);
 	margin: 1%;
 	padding: 1% 1%;
 	font-size: 0.7em;
@@ -358,12 +358,28 @@ body{
 	color: #6C132B; /*claret*/
 }
 
+@keyframes zoom{
+	0%{
+
+		transform: scale(0.7);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+}
 
 .galeria_fotos {
 	padding: 2%;
 	width: 450px;
 	height: 252px;
 	box-sizing: border-box;
+	animation-name: zoom;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 0;
 
 }
 
@@ -518,3 +534,4 @@ body{
 	}
 
 }
+
