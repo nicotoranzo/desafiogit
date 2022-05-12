@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ediciones El Panda</title>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<!-- Page maneja las reglas generales -->
+
+	<div class="page">
+		
+		<!-- Header -->	
+		<div class="header">
+
+			
+			<a href="index.html">
+				<img class="header__logo" src="fotos/logoprueba.png" alt="logo">
+			</a>
+			<div class="header__encabezado">Home</div>	
+			<div class="header__menu">	
+ 				<ul>
+ 					<li><a href="index.html">Home</a></li>
+ 					<li><a href="libros.html">Libros</a></li>
+ 					<li><a href="comprar.html">Comprar</a></li>
+ 					<li><a href="quienes_somos.html">Quienes Somos</a></li>	
+ 					<li><a href="convocatoria.html">Convocatoria</a></li>	
+ 				</ul>
+ 			</div>
+ 		</div>
+
+ 		<!-- Fin del Header  -->
+		 	
+ 		<!-- Banner -->
+
+ 		<div class="banner"><img src="fotos/elcoloso.png" alt="El Coloso - Pizarra"></div>
+
+ 		<!-- Fin del Banner -->	
+
+ 		<div class="containerFlex">
+
+ 		<!-- Contenidos -->		
+
+ 			<div class="contenidos">
+ 				<div class="contenidos__titulos">Acerca de Nosotros</div>
+ 				<p>Somos una editorial que diseña, produce y publica de forma conjunta con autores que están dando sus primeros pasos.</p>
+			</div>
+
+		<!-- Fin de Contenidos -->		
+
+		<!-- Formulario de Contacto-->
+			<div class="contenidos">
+			<form action='formulario.html' method='POST' enctype="multipart/form-data">
+				<div class="contenidos__titulos">¡Contactanos!
+				</div>
+				<div class='formulario-filas'>
+        			<label for='nombre'>Nombre:</label>
+        			<input id='nombre' name='full-name' type='text'/>
+        		</div>
+        		<div class='formulario-filas'>
+        			<label for='mail'>Correo Electronico:</label>
+        			<input id='mail' name='mail' type='email' placeholder="hola@ejemplo.com" />
+        		</div>
+				<div class='formulario-filas'>
+        			<label for='mensaje'>Tu Mensaje:</label>
+        			<textarea id='mensaje' name='mensaje' placeholder="Dejanos tu mensaje"></textarea>
+        		</div>
+        		<div class='formulario-filas'>
+        	  	<button>Enviar</button>
+				</div>        	
+			</form>
+			</div>
+
+		<!-- Fin del Formulario de Contacto-->
+
+		</div>
+
+		<!-- Footer-->	
+
+ 		<div class="footer">Nicolás Toranzo - 2022</div>
+ 		<!-- Fin del Footer-->	
+  	</div>
+	<!-- Fin del Page -->
+</body>
+</html>
+	
